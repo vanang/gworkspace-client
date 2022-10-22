@@ -3,8 +3,8 @@ import pandas as pd
 from googleapiclient.errors import HttpError
 from googleapiclient.discovery import build
 
-from core_gsuite_client.GsuiteBase import GsuiteBase
-from core_gsuite_client.GoogleDrive import GoogleDrive
+from gworkspace_client.GsuiteBase import GsuiteBase
+from gworkspace_client.GoogleDrive import GoogleDrive
 
 
 class GoogleSheet(GsuiteBase):

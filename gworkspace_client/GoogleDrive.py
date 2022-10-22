@@ -5,7 +5,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 
-from core_gsuite_client.GsuiteBase import GsuiteBase
+from gworkspace_client.GsuiteBase import GsuiteBase
 
 
 class GoogleDrive(GsuiteBase):
